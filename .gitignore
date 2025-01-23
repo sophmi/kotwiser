@@ -1,0 +1,10 @@
+*~
+.*
+!.git*
+
+# Gradle
+build/
+local.properties
+
+# JVM
+hs_err_pid*.log
