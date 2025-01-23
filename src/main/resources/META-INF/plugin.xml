@@ -1,0 +1,16 @@
+<idea-plugin>
+    <id>rs.soph.kotwiser</id>
+    <name>Kotwiser</name>
+    <vendor>sophmi</vendor>
+
+    <depends>com.intellij.modules.platform</depends>
+    <depends>org.jetbrains.kotlin</depends>
+
+    <extensions defaultExtensionNs="org.jetbrains.kotlin">
+        <supportsKotlinPluginMode supportsK2="true" />
+    </extensions>
+
+    <extensions defaultExtensionNs="com.intellij">
+        <lang.foldingBuilder language="kotlin" implementationClass="rs.soph.kotwiser.ide.folding.BitwiseFoldingBuilder"/>
+    </extensions>
+</idea-plugin>
