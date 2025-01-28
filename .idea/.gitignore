@@ -1,0 +1,5 @@
+*
+!.gitignore
+
+# Allow runConfigurations to configure its own ignore rules
+!/runConfigurations/

@@ -1,0 +1,6 @@
+*
+!.gitignore
+
+!plugin.default.run.xml
+!tests.default.run.xml
+!verify_plugin.default.run.xml

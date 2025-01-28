@@ -8,3 +8,6 @@ local.properties
 
 # JVM
 hs_err_pid*.log
+
+# IntelliJ IDEA
+!/.idea/
