@@ -43,6 +43,8 @@ dependencies {
 }
 
 intellijPlatform {
+	buildSearchableOptions = false
+
 	pluginConfiguration {
 		version = providers.gradleProperty("pluginVersion")
 
