@@ -103,6 +103,13 @@ changelog {
 tasks {
 	withType<Jar> {
 		exclude("META-INF/plugin_description.html")
+
+		from(rootDir.resolve("LICENSE-APACHE")) {
+			into("META-INF")
+		}
+		from(rootDir.resolve("LICENSE-MIT")) {
+			into("META-INF")
+		}
 	}
 
 	publishPlugin {
