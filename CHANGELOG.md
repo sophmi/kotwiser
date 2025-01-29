@@ -12,6 +12,8 @@ Change categories (https://keepachangelog.com):
   ### Security: in case of vulnerabilities.
 -->
 
+## [0.1.1] / Unreleased
+
 ## [0.1.0] / 2025-01-29
 ### Added
 - Folding of binary bitwise infix functions (`shl`, `shr`, `ushr`, `and`, `xor`, `or`).
