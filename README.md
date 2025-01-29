@@ -1,4 +1,5 @@
 # Kotwiser
+![Build](https://github.com/sophmi/kotwiser/workflows/Build/badge.svg)
 
 Code-folds kotlin bitwise infix functions into their C-style operator equivalents. This is purely
 visual and does not modify source code, operator precedence, etc.
